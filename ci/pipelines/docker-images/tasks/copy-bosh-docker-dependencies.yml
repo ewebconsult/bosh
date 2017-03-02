@@ -12,5 +12,7 @@ inputs:
   - name: bosh-deployment
   - name: bosh-cli
 
+run: bosh-src/ci/pipelines/docker-images/tasks/copy-bosh-docker-dependencies.sh
+
 outputs:
   - name: bosh-src-with-docker-dependencies

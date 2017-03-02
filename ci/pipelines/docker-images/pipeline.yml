@@ -27,8 +27,6 @@ resources:
     source:
       uri: https://github.com/cloudfoundry/bosh.git
       branch: wip-docker-image
-      paths:
-        - "ci/docker"
 
   - name: bosh-deployment
     type: git
