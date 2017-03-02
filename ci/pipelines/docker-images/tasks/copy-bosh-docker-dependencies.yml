@@ -13,4 +13,4 @@ inputs:
   - name: bosh-cli
 
 outputs:
-  - name: bosh-src
+  - name: bosh-src-with-docker-dependencies
